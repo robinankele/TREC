@@ -1,0 +1,60 @@
+package oad.trec;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class admindatabasepage extends HttpServlet{
+
+  public void doGet(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException{
+    response.setContentType("text/html");
+    PrintWriter writer = response.getWriter();
+      writer.write("<html>\n");
+      writer.write("<head>\n");
+      writer.write("<title>Edit Profile</title>\n");
+      writer.write("<link rel = \"stylesheet\" type = \"text/css\" href = \"main.css\"/>\n");
+      writer.write("</head>");
+      writer.write("<body>");
+      writer.write("<div id=\"header\" align = \"center\">");
+      writer.write("<img src=\"trec.jpg\" alt=\"logo\" width=\"900\" height=\"137\"/>");
+      writer.write("</div>");
+      writer.write("<div id=\"socialNetworkBox\">");
+      writer.write("<a class=\"fb\" href=\"http://www.facebook.com/pages/TREC/139183509474395\" target=\"_blank\" title=\"Besuch uns auch mal bei facebook\"><span>TREC @ facebook</span></a>");
+      writer.write("</div>\n");
+
+      writer.write("<div id =\"evaluate\">\n");
+      writer.write("<fieldset>\n");
+      writer.write("<legend>SQL-Query</legend>\n");
+      writer.write("<form action=\"index.html\" method=\"GET\">\n");
+      writer.write("<input style=\"margin-left: 820px\" type =\"submit\" value =\"Logout\"/>\n");
+      writer.write("</form>\n");
+      writer.write("<form action=\"admindatabasepageresult\" method=\"GET\">\n");
+      writer.write("<p> <textarea name=\"sql\" cols=\"50\" rows=\"7\">SQL - Query hier eingeben ...</textarea></p>\n");
+      writer.write("<table><tr>\n");
+      writer.write("<td><input type =\"submit\" value =\"SQL\"/></td>\n");
+      writer.write("</form>\n");
+      writer.write("<form action=\"mainpage\" method=\"GET\">\n");
+      writer.write("<td><input style=\"margin-left:50px\" type =\"submit\" value =\"Cancel\"/></td>\n");
+      writer.write("</tr></table>\n");
+      writer.write("</form>\n");
+      writer.write("<br><br><br>\n");
+      writer.write("</fieldset>\n");
+      writer.write("</div>\n");
+      writer.write("<div id=\"footer\">\n");
+      writer.write("<hr />\n");
+      writer.write("<p> <a href=\"impressum\" title=\"Impressum\">Impressum</a> |\n");
+      writer.write("<a href=\"index.html\" title=\"TREC\">TREC</a>\n");
+      writer.write("</p>\n");
+      writer.write("</div>\n");
+
+      writer.write("</body>\n");
+      writer.write("</html>\n");
+      
+  }
+  
+}

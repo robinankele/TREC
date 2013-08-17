@@ -1,0 +1,143 @@
+#header 
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#impressum
+{
+  clear: left;
+  float: left;
+  margin-left: 300px;
+  margin-right: 110px;
+}
+#login
+{
+    float: left;
+    margin-left: 80px;
+}
+#main
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#evaluate
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#searchoutput
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#search
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#booking
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#facebook
+{
+  clear: left;
+  float: left;
+  margin-left: 370px;
+  margin-right: 110px;
+}
+#register
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#evaluationresult
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#edit
+{
+  clear: left;
+  float: left;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#footer
+{
+  clear: left;
+  float: left;
+  margin-left: 500px;
+  margin-right: 110px;
+}
+hr
+{
+   clear: left;
+   float: left;
+   margin-left: 110px;
+   margin-right: 110px;
+}
+h1
+{
+   margin-left: 110px;
+}
+fieldset
+{
+   background-image: url(background.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#socialNetworkBox {
+	width: 39px;
+	height: 84px;
+	background: transparent url(logo.png) no-repeat top left;
+	position: fixed;
+	top: 80px;
+	right: 0px;
+	display: block;
+	z-index: 484;
+}
+
+#socialNetworkBox a {
+	width: 33px;
+	height: 33px;
+	display: block;
+	margin-left: 6px;	
+	cursor: pointer;
+}
+
+#socialNetworkBox a.fb {
+	margin-top: 7px;
+	margin-bottom: 3px;	
+}
+
+#socialNetworkBox a span {
+	display: none;	
+}
+
+
+
+
+
+
+
+
+
+
